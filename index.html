@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nelson English</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/netizen-nelson/web-dev/bp-styles.css">
+<style>
+:root {font-size: 18px;}
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'inter', 'Noto Sans TC', 'PingFang TC', system-ui;
+  min-height: 100vh;
+  padding: 16px;
+}
+</style>
+</head>
+<body class="bp-text-shell bp-bg-background">
+<section id="introduction">
+	<div class="container justify-content-center">
+		<div class="fs-4 m-2">
+			<i class="bi bi-pentagon-fill"></i> 不用困難單字，從<span class="bp-text-pink">簡短、破碎</span>的話，長成<span class="bp-text-safe">完整</span>的想法
+		</div>
+		<div class="row mx-2">
+			<div class="col-4">
+				<p>一個想法<br>
+				I usually try to get something different for lunch.</p>
+			</div>
+			<div class="col ms-auto">
+				<p>
+					一個完整的表達<br>
+					Unlike those who tend to have the same thing for lunch every day, I usually try to get something different, which is why I find food delivery apps really convenient. 
+					<card-badge theme="info" text="翻譯" size="sm" clickable="true" alert-type="info" alert-message="和那些每天午餐傾向於吃同樣東西的人不同，我通常會試著吃些不同的東西，所以我發現外賣應用程式真的很方便。"></card-badge>
+				</p>
+			</div>
+		</div>
+		<div class="row mx-2">
+			<div class="col-4"></div>
+			<div class="col ms-auto">
+				<div>
+					<dual-hr class="my-0" color-left="safe" color-right="yellow" ratio="1:4" thickness="1px"
+					 line-style="dotted" dash="12px" gap="5px"></dual-hr>
+					<div class="mt-3">
+						<p class="fw-bold">Nelson知道你會這麼嘀咕：<span class="bp-text-yellow">我怎麼可能說出那麼長的句子？</span></p>
+						<ul>
+							<li>在腦袋按照中文字詞湊成英文句子，當然做不到！</li>
+							<li>
+								學會一種技術，說出下面句子的大腦運作方式和上面那句如出一轍，實現自由造句：<br>
+								On crazy workdays, I wolf my lunch down in ten minutes without even tasting it, which happens very often. 
+								<card-badge theme="info" text="翻譯" size="sm" clickable="true" alert-type="info" alert-message="在瘋狂的工作日裡，我狼吞虎嚥在十分鐘內吃完午餐，甚至沒吃出味道。"></card-badge>
+							</li>
+							<li>以下對照顯示：句子的主體結構單純，搭配前置和延伸資訊，形成一句較長的話。而將三種資訊串起來，就是組織能力。</li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<dual-cell id="sentences-comparasion" cols="3" theme="vanilla" font-size="0.8rem">
+					  <dual-col width="70px"></dual-col>
+					  <dual-col>句子1</dual-col>
+					  <dual-col>句子2</dual-col>
+					  <dual-col width="70px">背景</dual-col>
+					  <dual-col>Unlike those who tend to have the same thing for lunch every day,</dual-col>
+					  <dual-col>On crazy workdays,</dual-col>
+					  <dual-col width="70px">主幹</dual-col>
+					  <dual-col>I usually try to get something different</dual-col>
+					  <dual-col>I wolf my lunch down in ten minutes without even tasting it</dual-col>
+					  <dual-col width="70px">補充</dual-col>
+					  <dual-col>, which is why I find food delivery apps really convenient.</dual-col>
+					  <dual-col>, which happens very often.</dual-col>
+					</dual-cell>
+				</div>
+				<div class="mt-5">
+					<dual-hr class="my-0" color-left="safe" color-right="yellow" ratio="1:4" thickness="1px"
+						line-style="dotted" dash="12px" gap="5px"></dual-hr>
+					<div class="fw-bold mt-3"><i class="bi bi-journal-bookmark-fill"></i> 說出結構多樣的句子的基本學習流程</div>
+					<bp-stepper data-theme="shell" data-layout="vertical" data-gap="66px" data-auto-number="false" data-connector="dashed" data-card-width="520px">
+						<bp-step data-connector-label="停止腦內堆砌單字">
+							<bp-step-title>Step 1 讓英文和中文的差異真正浮上檯面</bp-step-title>
+							<bp-step-content>逐字中翻英遇上英文和中文不同處，就會失敗</bp-step-content>
+						</bp-step>
+						<bp-step data-connector-label="開始改變">
+							<bp-step-title>Step 2 認識差異</bp-step-title>
+							<bp-step-content>
+								<div class="row">
+								<div class="col-4">
+								<ul>
+									<li>底層：語序</li>
+									<li>進階：時態</li>
+								</ul>
+								</div>
+								<div class="col ms-auto">
+									<p class="bp-text-yellow">天啊！要重上文法課嗎？<br><span class="bp-text-safe">這門課提供的是情境實戰</span></p>
+								</div>
+								</div>
+							</bp-step-content>
+						</bp-step>
+						<bp-step>
+							<bp-step-title>Step 3 實戰解方</bp-step-title>
+							<bp-step-content>
+								情境實戰：<span class="bp-text-vanilla">組織點子(思維)＋組合語塊(技術)＋社交應對(策略)</span>
+							</bp-step-content>
+						</bp-step>
+					</bp-stepper>
+				</div>
+			</div>
+			<div class="mx-2 px-2">
+				<dual-cell id="situation-comparasion" cols="2" theme="shell" font-size="0.8rem">
+					<dual-group title="一樣是情境，這門課實施方式大不同"
+						title-font-size="0.8rem" title-padding="8px" collapsed="true" title-right="點擊展開">
+						<dual-row col-widths="1:1.75">
+							<dual-col><b>傳統情境對話</b></dual-col>
+							<dual-col><b>這門課情境實戰</b></dual-col>
+						</dual-row>
+						<dual-row col-widths="1:1.75">
+							<dual-col>主題單字清單、沒有解釋或扼要解釋對話</dual-col>
+							<dual-col>對話詳解以理解、易記、應用</dual-col>
+						</dual-row>
+						<dual-row col-widths="1:1.75">
+							<dual-col>單情境中英對照範例＋角色扮演</dual-col>
+							<dual-col>多情境中英對照範例＋熟練語塊語序＋融入想法造句</dual-col>
+						</dual-row>
+						<dual-row col-widths="1:1.75">
+							<dual-col>
+								<p class="small">一、朗讀<br>
+									A: My desire to eat another piece of cake seems to outweigh my commitment to my summer diet.<br>
+									B: Join the club. I've already had three cups of boba this week, so your secret is safe with me.<br>
+									A: 我想要再吃一塊蛋糕的渴望，似乎已經超越了我對夏日減肥計畫的堅持。<br>
+									B: 天下烏鴉一般黑（彼此彼此啦）。我這週已經喝了三杯珍珠奶茶了，所以妳的祕密在我這絕對安全。<br>
+									二、角色扮演（輪流朗讀或靠默背）<br>
+									模仿現成對話，在真實社交情境中，一旦話題稍微偏離腳本，學習者就會腦袋空白<br>
+									<span class="bp-text-yellow">朗讀和邊想邊說是不同的技能</span>
+								</p>
+							</dual-col>
+							<dual-col overlay-1-text="點此看豐富細節">
+								<p class="small">
+									<span class="bp-text-vanilla">一、辦公室茶水間和同事閒聊</span><br>
+									1.比較兩句的差異：<br>
+									(1) I want to eat another piece of cake, but I'm currently on a diet.<br>
+									<span class="bp-text-warning">直白，無畫面，難吸引人</span><br>
+									(2) My desire to eat another piece of cake seems to outweigh my commitment to my summer diet.<br>
+									<span class="bp-text-safe">精準描繪出「吃蛋糕的慾望與和減肥承諾的抗衡」之心理狀態</span><br>
+									2.如何說句子出(2)：<br>
+									了解英文片語和子句當形容詞和中文形容詞在位置的差異：名詞＋形容詞語塊【後位修飾】<br>
+									<b>desire + to eat ... cake</b><br>學習者更容易理解與實踐第三人稱單數主詞desire搭配單數動詞seems<br>
+									<br><span class="bp-text-vanilla">二、展覽館場前排隊攀談</span><br>
+									A: My desire to see this exhibition seems to outweigh my hatred of waiting in long lines.<br>
+									B: Same here. My legs are already dead, but I'm in too deep to leave now.<br>
+									A: 我想要看這個展覽的渴望，似乎已經勝過了我對排長隊的討厭。<br>
+									B: 我也是。我的腿已經快廢了，但現在放棄也太可惜了。<br>
+									<span class="bp-text-vanilla">三、其他情境，讓學習者運用更多不同的名詞＋不定詞片語表達自己的想法</span><br>
+									<span class="fs-5 bp-text-special">不背劇本，學習自主造句</span>
+								</p>
+							</dual-col>
+						</dual-row>
+						<dual-row col-widths="1:1.75">
+							<dual-col id="faq-col" overlay-1-text="FAQ" cell-locked="ans-col">
+								<p class="fw-bold">只是想全英聊天，為何搞得看起來有點累？還有一些我肯定記不住的文法術語。</p>
+							</dual-col>
+							<dual-col id="ans-col" overlay-1-text="Answer" cell-locked-hint="請先看完FAQ">
+								<ul>
+									<li class="bp-text-sky">把文法規則變成可操作的語法知識及造句工具，學而易用</li>
+									<li>讓你說英文的時候，更容易讓人有共鳴、發揮你的魅力影響力，甚至於成為你的競爭力</li>
+								</ul>
+							</dual-col>
+						</dual-row>
+					</dual-group>
+				</dual-cell>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="lesson1">
+	<div class="container justify-content-center mt-5">
+		<div class="m-2">
+			<p class="fs-3"><i class="bi bi-pentagon-fill"></i> 從一個名詞，長出<span class="bp-text-safe">完整的想法</span></p>
+			<p class="fs-5 fw-bold">Lesson 1 用to V 提高資訊密度</p>
+		</div>
+		<div class="row mx-2">
+		</div>
+	</div>
+</section>
+<section id="ch2">
+
+</section>
+<section id="ch3">
+
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/netizen-nelson/web-dev/dual-cellex.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/netizen-nelson/web-dev/bp-popnote.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/netizen-nelson/web-dev/card-badge.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/netizen-nelson/web-dev/chunk-demo.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/netizen-nelson/web-dev/dual-line.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/netizen-nelson/web-dev/sa-analyzer.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/netizen-nelson/web-dev/bp-stepper.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/netizen-nelson/web-dev/quiz-panel.js"></script>
+</body>
+</html>
