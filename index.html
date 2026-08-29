@@ -66,7 +66,7 @@ body {
 					    <ui-col show-next="true" icon="bi-arrow-down">
 							每天早上慢跑
 						</ui-col>
-						<ui-col mask-text="看解答" mask-order="1">
+						<ui-col mask-text="看解答" mask-order="1" ask-gradient="3">
 							go jogging every morning
 						</ui-col>
 					  </ui-row>
@@ -74,7 +74,7 @@ body {
 					    <ui-col show-next="true" icon="bi-arrow-down">
 							我每天早上慢跑的計畫
 						</ui-col>
-						<ui-col mask-text="看解答" mask-order="2">
+						<ui-col mask-text="看解答" mask-order="2" mask-gradient="3">
 							my plan to go jogging every morning
 						</ui-col>
 					  </ui-row>
@@ -82,7 +82,7 @@ body {
 					    <ui-col>
 							我每天早上慢跑的計畫從來維持不久。
 						</ui-col>
-						<ui-col mask-text="看解答" mask-order="3">
+						<ui-col mask-text="看解答" mask-order="3" ask-gradient="3">
 							My plan to go jogging every morning never lasts long.
 						</ui-col>
 					  </ui-row>
@@ -547,7 +547,7 @@ body {
 			</p>
 		</div>
 		<ui-table theme="vanilla">
-			<ui-group title-left="用 , which 延伸資訊">
+			<ui-group title-left="用 , which 延伸資訊(1)">
 			  <ui-row col-widths="1:1.5" cell-padding="6px" border="1px solid" col-border="1px dashed">
 				<ui-col>
 					I work in this neighborhood.<br>
@@ -577,12 +577,71 @@ body {
 			  </ui-row>
 			  <ui-row hidden col-widths="1:1.5" cell-padding="6px" border="1px solid">
 				<ui-col hidden>
+					不是背範例，應學習比對分析兩句的差異
 				</ui-col>
 				<ui-col>
 					【進化】 I usually stay home on weekends, <span class="bp-text-special fw-bold">which is why</span> I have plenty of time to relax by watching a wide variety of movies. But recently, I've gotten tired of that and had a desire to try something new and different. 
 					<span data-popover-title="翻譯" data-popover-content="我週末通常待在家，所以我有很多時間透過看各式各樣的電影來放鬆。不過最近，我已經開始對這樣的生活感到厭倦，想嘗試一些新鮮、不一樣的事情。" data-popover-theme="sky">翻譯</span>
 				</ui-col>
-			  </ui-row>	
+			  </ui-row>
+			</ui-group>
+		</ui-table>
+		<ui-table theme="vanilla">
+			<ui-group title-left="用 , which 延伸資訊(2)">
+			  <ui-row col-widths="1:1.5:1.25" cell-padding="6px" border="1px solid">
+				<ui-col>
+				</ui-col>
+				<ui-col>
+					功能
+				</ui-col>
+				<ui-col>
+					語感
+				</ui-col>
+			  </ui-row>
+			  <ui-row col-widths="1:1.5:1.25" cell-padding="6px" border="1px solid">
+				<ui-col show-next="true" icon="bi-arrow-down">
+					S + V, which means
+				</ui-col>
+				<ui-col>
+					說明前句帶來的實際結果或邏輯推論
+				</ui-col>
+				<ui-col>
+					理性、清晰，有條理
+				</ui-col>
+			  </ui-row>
+			  <ui-row hidden font-size="0.85rem">
+				<ui-col span="all">
+					<p class="p-2">
+						I got promoted. Now I have more responsibility.<br>對方摸不著頭緒，只能追問細節。<br>
+						<i class="bi bi-caret-down-fill"></i><br>
+						I just found out I got promoted, which means unfortunately my weekday lunches are basically going to be at my desk from now on. 
+						<span data-popover-title="翻譯" data-popover-content="我剛剛得知自己升職了，這意味著很不幸，從現在開始，我工作日的午餐基本上都得在辦公桌前解決了。" data-popover-theme="sky">翻譯</span>
+					</p>
+				</ui-col>
+			  </ui-row>
+			  <ui-row col-widths="1:1.5:1.25" cell-padding="6px" border="1px solid">
+				<ui-col show-next="true" icon="bi-arrow-down">
+					S + V, which symbolizes
+				</ui-col>
+				<ui-col>
+					賦予前句更深層的文化、情感或象徵意涵，讓對話從閒聊升級為有深度的交流。尤其適合節慶、儀式、物件等話題。
+				</ui-col>
+				<ui-col>
+					有涵養、有人文氣質
+				</ui-col>
+			  </ui-row>
+			  <ui-row hidden font-size="0.85rem">
+				<ui-col span="all">
+					<p class="p-2">
+						We make tang yuan together every winter solstice. It's a family tradition.<br>
+						訊息完整，但沒有情感厚度<br>
+						<i class="bi bi-caret-down-fill"></i><br>
+						Every winter solstice, my family gathers to make tang yuan together, which symbolizes our hope to stay whole as a family, no matter how far apart life takes us. 
+						<span data-popover-title="翻譯" data-popover-content="每年冬至，我們全家會聚在一起搓湯圓，象徵著無論生活把我們帶到多遠，我們都希望家人能夠圓滿。" data-popover-theme="sky">翻譯</span>
+					</p>
+				</ui-col>
+			  </ui-row>
+			</ui-group>
 		</ui-table>
 	</div>
 </section>
