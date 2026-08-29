@@ -57,16 +57,16 @@ body {
 						<ui-col icon="bi-rocket-takeoff-fill">
 							(1)兩個雞肉三明治外帶、(2)還有兩天
 						</ui-col>
-						<ui-col mask-text="看解答">
+						<ui-col mask-text="看解答" mask-gradient="5">
 							(1) two chicken sandwiches to go<br>
-							(2) two daus to go
+							(2) two days to go
 						</ui-col>
 					  </ui-row>
 					  <ui-row col-widths="1:1.5" cell-padding="6px" border="1px solid" col-border="1px dashed">
 					    <ui-col show-next="true" icon="bi-arrow-down">
 							每天早上慢跑
 						</ui-col>
-						<ui-col mask-text="看解答" mask-order="1" ask-gradient="3">
+						<ui-col mask-text="看解答" mask-order="1" mask-gradient="5">
 							go jogging every morning
 						</ui-col>
 					  </ui-row>
@@ -74,15 +74,15 @@ body {
 					    <ui-col show-next="true" icon="bi-arrow-down">
 							我每天早上慢跑的計畫
 						</ui-col>
-						<ui-col mask-text="看解答" mask-order="2" mask-gradient="3">
+						<ui-col mask-text="看解答" mask-order="2" mask-gradient="5">
 							my plan to go jogging every morning
 						</ui-col>
 					  </ui-row>
 					  <ui-row hidden col-widths="1:1.5" cell-padding="6px" border="1px solid" col-border="1px dashed">
 					    <ui-col>
-							我每天早上慢跑的計畫從來維持不久。
+							我每天早上慢跑的計畫從來就無法維持長久。
 						</ui-col>
-						<ui-col mask-text="看解答" mask-order="3" ask-gradient="3">
+						<ui-col mask-text="看解答" mask-order="3" mask-gradient="5">
 							My plan to go jogging every morning never lasts long.
 						</ui-col>
 					  </ui-row>
@@ -667,6 +667,34 @@ body {
 				<span class="fs-3">從一個名詞，長出<span class="bp-text-safe">完整想法(二)</span></span>
 			</p>
 			<p><span class="text-dark bp-bg-focus">中文習慣把修飾語放在名詞前面；英文卻經常先說出核心名詞，再把更多資訊放到後面</span></p>
+			<bp-stepper data-theme="vanilla" data-gap="48px" data-layout="vertical" data-connector="dashed" data-card-width="600px">
+				<bp-step data-connector-label="停止逐字翻譯">
+					<bp-step-content><span class="text-white">絕對沒有人會從左到右把University of Toronto翻譯成『大學的多倫多』；正確的是「多倫多大學」</span></bp-step-content>
+				</bp-step>
+				<bp-step>
+					<bp-step-content><span class="text-white">絕對沒有人會從左到右把the winner of this year翻譯成『獲勝者的今年』；正確的是「今年的獲勝者」</span></bp-step-content>
+				</bp-step>
+				<bp-step>
+					<bp-step-content><span class="text-white">直接從左到右把public attitudes toward building mega data centers翻譯成『大眾的態度對建造大型資料中心』，是錯的；正確的是「大眾對建造大型資料中心的態度」</span></bp-step-content>
+				</bp-step>
+				<bp-step>
+					<bp-step-content><span class="text-white">
+						你發現了英文和中文理解順序恰好相反的地方嗎？<br>
+						<span class="fs-5 bp-text-pink">理解順序相反，說寫順序也顛倒，這是腦內逐字中翻英常失效的原因</span>
+					</span>
+				</bp-step>
+				<bp-step>
+					<bp-step-title>試著說出來</bp-step-title>
+					<bp-step-content>
+						<span class="text-white">
+							(1) 規律運動的重要性<br>
+							(2) 我對遠距工作的態度
+						</span>
+					</bp-step-content>
+				</bp-step>
+			</bp-stepper>
+		</div>
+		<div class="m-2">
 			<p class="fs-5 fw-bold">Lesson 2-1 用prep. + O提高資訊密度</p>
 		</div>
 	</div>	
