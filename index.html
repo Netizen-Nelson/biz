@@ -37,7 +37,8 @@ body {
 	  </div>
 	  <div class="fs-5 mt-3">
 		<i class="bi bi-slash-circle"></i> 這門課不是「背各種主題的對話、馬上去點餐或夜店和老外閒聊」(迷思：只要背大量單字和情境對話，就能在真實世界開口)<br>
-		反之，<span class="fw-bold bp-text-yellow">你需要動腦 <i class="bi bi-cpu-fill"></i> 需要適應中英文底層邏輯的衝突、甚至過程相當燒腦</span>
+		反之，<span class="fw-bold bp-text-yellow">你需要動腦 <i class="bi bi-cpu-fill"></i> 需要適應中英文底層邏輯的衝突、甚至過程相當燒腦</span> 
+		<card-badge theme="indigo" text="立即滿足 vs. 動腦與燒腦" size="sm" clickable="true" alert-type="indigo" alert-message="不是為了爽感，這門課著重溝通成效，過程需要適應中英文底層邏輯衝突，燒腦不會帶來快感，但頓悟之後可以帶來長期滿意"></card-badge>
 	  </div>
 	</div>
   </div>
@@ -469,6 +470,17 @@ body {
 		</div>
 		<div>
 			<span class="fw-bold">替換</span>
+			<chunk-demo sentence="I have plans {1} this weekend. Would you like to come?"
+					theme="sky" translation="<span class='bp-text-sky'>我有在這週末{1}的計畫。你要一起去嗎？</span>" show-translation="true" show-preview="true">
+				<cd-chunk id="1" label="to + V 修飾 spots">
+				  <cd-level level="1" trans="邀請一些好友來家裡聚聚">to invite some of my good friends over </cd-level>
+				  <cd-level level="2" trans="尋找價格優惠平板電腦">to look for tablet computers at bargain prices</cd-level>
+				  <cd-level level="3" trans="花幾小時在市區的獨立書店裡讀幾本好小說">to spend hours reading some good novels at the independent bookstore downtown</cd-level>
+				  <cd-level level="4" trans="在破曉前爬上山徑去捕捉日出">to hike up the mountain trail before dawn to capture the sunrise</cd-level>
+				</cd-chunk>
+			</chunk-demo>
+			<dual-hr class="my-2" color-left="safe" color-right="yellow" ratio="1:4" thickness="1px"
+					 line-style="dotted" dash="12px" gap="5px"></dual-hr><br>
 			<chunk-demo sentence="Here are some cool spots {1}."
 					theme="sky" translation="<span class='bp-text-sky'>以下是一些{1}的好去處。</span>" show-translation="true" show-preview="true">
 				<cd-chunk id="1" label="to + V 修飾 spots">
@@ -678,6 +690,18 @@ body {
 					<bp-step-content><span class="text-white">直接從左到右把public attitudes toward building mega data centers翻譯成『大眾的態度對建造大型資料中心』，是錯的；正確的是「大眾對建造大型資料中心的態度」</span></bp-step-content>
 				</bp-step>
 				<bp-step>
+					<bp-step-content>
+						<span class="bp-text-yellow">【難度提升】<br>
+							如何正確理解my anxiety <u>about whether I'll get the job offer</u>呢？<br>
+							劃底線的部分是形容詞、修飾名詞anxiety，中文的形容詞放在名詞前面、英文片語和子句當形容詞的時候，放在名詞後面。<br>
+							<span class="text-white">
+								完整句子：It's really hard to distract myself from my anxiety <u>about whether I'll get the job offer</u>.<br>
+								<span data-popover-title="翻譯" data-popover-content="轉移注意力、不去想<u>會不會拿到錄取通知的</u>焦慮，這件事可真難！" data-popover-theme="sky">翻譯</span>
+							</span>
+						</span>
+					</bp-step-content>
+				</bp-step>
+				<bp-step>
 					<bp-step-content><span class="text-white">
 						你發現了英文和中文理解順序恰好相反的地方嗎？<br>
 						<span class="fs-5 bp-text-pink">理解順序相反，說寫順序也顛倒，這是腦內逐字中翻英常失效的原因</span>
@@ -688,7 +712,8 @@ body {
 					<bp-step-content>
 						<span class="text-white">
 							(1) 規律運動的重要性<br>
-							(2) 我對遠距工作的態度
+							(2) 我對遠距工作的態度<br>
+							(3) 
 						</span>
 					</bp-step-content>
 				</bp-step>
